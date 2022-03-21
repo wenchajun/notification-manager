@@ -20,6 +20,7 @@ on:
   push:
     branches:
       - 'master'
+      - 'fix'
     tags:
       - 'v*'
     paths:
@@ -31,7 +32,7 @@ on:
       - 'go.mod'
 
 env:
-  REPO_OP: 'kubesphere'
+  REPO_OP: 'wenchajun'
 
 jobs:
   build:

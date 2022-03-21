@@ -20,6 +20,7 @@ on:
   push:
     branches:
       - 'master'
+      - 'fix'
     tags:
       - 'v*'
     paths:
@@ -30,7 +31,7 @@ on:
       - 'go.sum'
 
 env:
-  REPO_NM: 'kubesphere'
+  REPO_NM: 'wenchajun'
 
 jobs:
   build:
